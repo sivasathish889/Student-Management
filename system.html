@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./system.css">
+</head>
+<body>
+
+     <div class="container d-sticky">
+        <h1 class="text-center bg-primary py-4 container-fluid">Student Management System</h1>
+       <div class="py-4">
+        <button class="btn btn-outline-success " id="ad">Add Student Details</button>
+       </div>
+        <table id="table" >
+                <tr >
+                    <th>Student id</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Action</th>
+                </tr>
+        </table>
+     </div>
+
+     <!-- Form -->
+    <form action="">
+        <div class="container details p-4 " id="user">
+            <button class="btn btn-danger close ">X</button>
+            <h3 class="d-flex justify-content-center text-success border border-5  border-top-0 border-end-0 border-start-0 border-danger p-2">Enter Your Details</h4>
+            <input type="text" name="" id="inp1" required>
+            <span class="place">Student ID</span>
+    
+            <input type="text" name="" id="inp2" required>
+            <span class="place1">First Name</span>
+    
+            <input type="text" name="" id="inp3" required  >
+            <span class="place2">Last Name</span>
+            
+            <div class="d-grid gap-2 save">
+                <button class="btn btn-primary mt-3" type="button"  >Save</button>
+            </div>
+    </form>
+     </div>
+
+
+
+<script src="./bootstrap.js"></script>
+<script src="./system.js"></script>
+    
+</body>
+</html>
